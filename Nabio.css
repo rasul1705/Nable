@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.wrapper {
+    width: 1370px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 85px;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.first__logotype {
+    margin-top: 31px;
+}
+
+.first__logotype,
+.first__nav {
+    float: left;
+}
+
+.first__nav {
+    margin-top: 28px;
+}
+
+.first__login {
+    float: right;
+    margin-top: 28px;
+}
+
+.first__login a {
+    margin-top: 13px;
+    display: inline-block;
+    margin-right: 55px;
+    text-decoration: none;
+}
+
+.first__login .button {
+    margin-top: 0;
+    color: #fff;
+    margin-right: 0;
+}
+
+.first__logotype {
+    margin-right: 170px;
+}
+
+.first__nav ul {
+    list-style: none;
+}
+
+.first__nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}   
+
+.first__nav ul li:last-of-type {
+    margin-right: 0;
+}
+
+.link {
+    color: #1d0f9b;
+    text-decoration: none;
+    transition: all .2s;
+    padding-bottom: 4px;
+    border-bottom: 1px solid transparent;
+}
+
+.link:hover {
+    border-bottom: 1px solid #292929;
+}
+
+.link:active {
+    color: #404040;
+    border-bottom: 1px solid #404040;
+}
+
+.button {
+    background-color: #072dd8;
+    padding: 13px 50px;
+    border-radius: 4px;
+    color: #fff;
+    transition: background-color .2s;
+}
+
+.button:hover {
+    background-color: #120fcf;
+}
+
+.button:active {
+    background-color: #090b96;
+    }
+.first__background {
+        background-image: url(Fon.jpg);
+    }
+    
+ .first__content {
+        padding: 335px 0;
+        max-width: 427px;
+    }
+.first__background1 {
+        background-image: url(people1.jpg);
+        padding: 195px 180px;
+        max-width: 335px;
+        max-height: 385px;
+        position: absolute;
+        left: 342px;
+        top: 356px;
+    }
+.first__background2 {
+        background-image: url(people2.jpg);
+        padding: 195px 180px;
+        max-width: 335px;
+        max-height: 385px;
+        position: absolute;
+        left: 1237px;
+        top: 367px;
+    }
+ .first_text  {
+        position: absolute;
+        width: 661px;
+        height: 337px;
+        left: 630px;
+        top: 154px;
+    }
+
